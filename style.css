@@ -1,18 +1,48 @@
-<style>
-        h2 {
-            color:red;
+# style.css
+        *  {
+            padding:0;
+            margin:0;
         }
-        p {
-            color:blue;
-            font-size:36px;
+        header {
+            background-color: #231c1a; 
+            height:80px;
+            width:100%;
+            position:relative;
         }
-          {
-            padding:0；
-            margin:0；
+        h1 {
+            color:white;
+            position:absolute;
+            left:120px;
+            top:-20px;
+            line-height:80px;
+            background-image: url(images/logo.svg);
+            background-repeat: no-repeat;
+            background-position:center;
+            width: 210px;
+            text-indent:-9999px;
         }
-        header, section, footer {
-            background-color: #d6ccc2; 
-            border:5px #9d8189 solid;
-            padding:30px 20px 50px;
-            margin:30px;
+        header ul {
+            position:absolute;
+            right:5vw;
+            top:0;
+            line-height:80px;
+        }
+        header li {
+            display:inline;
+            margin-right:4vw;
+        }
+        header a {
+            color:white;
+            text-decorration:none;
+        }
+        header a:hover {
+            text-decoration:underline;
+        }
+        .news {
+            background-color: antiquewhite;
+            color: white;
+            height:85vh;
+            background-image: url("images/banner.png");
+            background-repeat: no-repeat;
+            background-position: center;
         }

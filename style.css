@@ -15,7 +15,7 @@
             left:120px;
             top:-20px;
             line-height:80px;
-            background-image: url(images/logo.svg);
+            background-image: url("logo.svg");
             background-repeat: no-repeat;
             background-position:center;
             width: 210px;
@@ -42,7 +42,7 @@
             background-color: antiquewhite;
             color: white;
             height:85vh;
-            background-image: url("images/banner.png");
+            background-image: url("banner.png");
             background-repeat: no-repeat;
             background-position: center;
         }

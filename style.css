@@ -12,4 +12,7 @@
         }
         header, section, footer {
             background-color: #d6ccc2; 
+            border:5px #9d8189 solid;
+            padding:30px 20px 50px;
+            margin:30px;
         }
